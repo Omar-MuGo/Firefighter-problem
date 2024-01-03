@@ -1,0 +1,13 @@
+# Ignore all subdirectories
+/**/
+
+# Exclude folders of interest
+!instances/
+!instances/**/
+
+!database/
+
+!models/
+
+# Exclude files of certain type:
+*.pyc
